@@ -7,7 +7,7 @@ function Card({ image, title }) {
       <div className="absolute inset-0 w-full h-full bg-black/30 opacity-0 
       group-hover:opacity-100 transition duration-300"></div>
 
-      <h3 className="absolute bottom-4 left-4 text-primary text-xl font-bold  transition duration-300">
+      <h3 className="absolute bottom-4 left-4 text-[#d1833f] text-xl font-bold  transition duration-300">
         {title}
       </h3>
 

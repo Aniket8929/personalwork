@@ -42,8 +42,8 @@ export default function CardStack() {
     ];
 
     const positions = [
-        "top-2 left-2 sm:left-[10%]",
-        "top-10 right-2 sm:right-[10%]",
+        "top-2 left-2 sm:left-[4%] md:left-[12%]",
+        "top-10 right-2 sm:right-[4%] md:right-[12%]",
         "bottom-10 left-2 sm:left-[15%]",
         "bottom-2 right-2 sm:right-[15%]",
     ];

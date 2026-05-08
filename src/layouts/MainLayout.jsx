@@ -1,20 +1,36 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import Navbar from '../components/ui/Navbar'
-import Footer from '../components/ui/Footer'
+import React, { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/ui/Navbar";
+import Footer from "../components/ui/Footer";
+import Loader from "../components/ui/Loader";
+
 
 function MainLayout() {
-    return (
-        <div className='bg-primary pt-1'>
-            <Navbar />
+  const [loading, setLoading] = useState(true);
 
-            <main>
-                <Outlet />
-            </main>
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
 
-            <Footer />
-        </div>
-    )
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
+  return (
+    <div className="bg-primary pt-1">
+      <Navbar />
+
+      <main>
+        <Outlet />
+      </main>
+
+      <Footer />
+    </div>
+  );
 }
 
-export default MainLayout
+export default MainLayout;
