@@ -20,7 +20,6 @@ function Footer() {
                         Ready To work with a <br />
                         <span className='text-secondary'>creative partner</span>
                     </h4>
-
                     <a
                         href="https://mail.google.com/mail/?view=cm&fs=1&to=aniketkumarrai271@gmail.com"
                         target="_blank"
