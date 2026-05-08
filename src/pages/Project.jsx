@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { Projectdata } from '../lib/Constant'
+import { Projectdata } from '../lib/Constant.js'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 function Project() {
