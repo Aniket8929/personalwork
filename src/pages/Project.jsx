@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { Projectdata } from '../lib/Constant'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
-function Projectdetails() {
+function Project() {
 
     const { id } = useParams()
 
@@ -118,4 +118,4 @@ function Projectdetails() {
     )
 }
 
-export default Projectdetails
+export default  Project

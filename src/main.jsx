@@ -13,7 +13,7 @@ import MainLayout from './layouts/MainLayout.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import WorkPages from './pages/WorkPages.jsx'
-import ProjectDetails from './pages/ProjectDetails.jsx'
+import Project from './pages/Project.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -25,7 +25,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='mywork' element={<WorkPages />} />
           <Route
             path='projects/:id'
-            element={<ProjectDetails />}
+            element={<Project />}
           />
         </Route>
       </Routes>
