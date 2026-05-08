@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectGrid from '../components/ProjectGrid'
 
-function WorkPages() {
+function WorkPage() {
     return (
         <div className='min-h-screen'>
 
@@ -22,4 +22,4 @@ function WorkPages() {
     )
 }
 
-export default WorkPages
+export default WorkPage

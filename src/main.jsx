@@ -12,7 +12,7 @@ import MainLayout from './layouts/MainLayout.jsx'
 
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-import WorkPages from './pages/WorkPages.jsx'
+import WorkPages from './pages/Workpage.jsx'
 import Project from './pages/Project.jsx'
 
 createRoot(document.getElementById('root')).render(
